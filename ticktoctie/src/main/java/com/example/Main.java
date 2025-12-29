@@ -6,7 +6,7 @@ public class Main {
         TicTacToeGame game=new TicTacToeGame();
         game.initializeGame();
         GameStatus status=game.startGame();
-        System.out.println("\n==> Game Over");
+        System.out.println("\n==> Game Over new");
         switch(status){
             case WIN:
                 System.out.println("It's WIN");
